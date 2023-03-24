@@ -1,0 +1,16 @@
+.tag {
+  border: thin solid #8c9aa8;;
+  border-radius: 0.25rem;
+  display: flex;
+  padding: 6px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tag-medium {
+  min-width: 80px;
+}
+
+.tag svg {
+  padding: 0 2px;
+}

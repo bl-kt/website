@@ -1,0 +1,22 @@
+.header-wrapper {
+  padding-top: 32px;
+}
+
+.header-content {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  width: 100px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    fill: white;
+  }
+}

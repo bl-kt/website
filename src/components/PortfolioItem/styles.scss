@@ -1,0 +1,45 @@
+.portfolio-item-wrapper {
+  border-radius: 0.25rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  flex-direction: row;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+.portfolio-item-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.image {
+  min-width: 160px;
+  min-height: 160px;
+  max-height: 160px;
+  max-width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 0 5px
+}
+
+.title-with-link {
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.portfolio-item-skills {
+  display: flex;
+  row-gap: 5px;
+  column-gap: 5px;
+}
